@@ -21,17 +21,43 @@
 title: Kristina Macekovic
 email: kmacekovic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website (primarily a blog) of Kristina Macekovic. Contains writings on topics such as coding, business and management and general musings and intrests I currently hold.
+  Personal website (primarily a blog) of Kristina Macekovic. Contains writings on topics such as coding, business and management and general musings and interests I currently hold.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "kristinamacekovic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: neznam_neznam_n
 github_username:  kristinamacekovic
 
+permalink: /:slug.html
+
+# favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+
+sass:
+  style: :compressed
+
 # Build settings
 # theme: minima
 theme: no-style-please
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
