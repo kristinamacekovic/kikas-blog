@@ -44,6 +44,7 @@ A roundup of resources shared by attendees on what they would recommend as "gett
 * [Scrimba has launched a short Javascript+Langchain course](https://scrimba.com/playlist/p7PPY6xU6)
 
 # [Materials from Talks and Workshops](#materials-from-talks-and-workshops)
+* [Closing Keynote from Simon Willson: Open Questions for AI Engineering](https://simonwillison.net/2023/Oct/17/open-questions/)
 * [Learn from first principles how to fine-tune open-source Llama-2 models](https://gist.github.com/markhng525/d1b427e57edf10fdfd54c621e7e7df4d)
 * [Writing Principles for Task-Tuned Prompt Engineering](https://bit.ly/principles-prompt-engineering)
 * [Building, Evaluating, and Optimizing your RAG App for Production](https://github.com/run-llama/ai-engineer-workshop)
