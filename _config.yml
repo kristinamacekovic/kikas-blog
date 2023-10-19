@@ -29,7 +29,7 @@ github_username:  kristinamacekovic
 
 permalink: /:slug.html
 
-# favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 
 sass:
   style: :compressed
